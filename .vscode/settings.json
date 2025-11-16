@@ -1,0 +1,10 @@
+{
+  // Usa la toolchain gestita da rustup (stessa di `cargo` / `rustc`)
+  "rust-analyzer.rustup.enable": true,
+
+  // Assicurati di non usare un serverPath custom (se ce l'hai globale, questo lo sovrascrive)
+  "rust-analyzer.serverPath": null,
+
+  // Abilita le proc-macro (necessario per `#[tokio::main]`)
+  "rust-analyzer.procMacro.enable": true
+}
