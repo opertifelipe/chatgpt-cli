@@ -11,8 +11,6 @@ A lightweight, colorful terminal client for OpenAI’s GPT models. It keeps the 
 ## Building
 
 ```bash
-git clone https://github.com/<your-account>/chatgpt-cli.git
-cd chatgpt-cli
 cargo build --release
 ```
 
