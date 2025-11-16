@@ -25,6 +25,20 @@ export OPENAI_API_KEY="sk-your-key"
 cargo run -- --reasoning low
 ```
 
+### Installing globally
+
+To call the CLI from any directory as `chatgpt`:
+
+```bash
+cargo install --path . --bin chatgpt
+```
+
+Make sure `$HOME/.cargo/bin` is on your `PATH` (rustup adds it automatically). After that simply run:
+
+```bash
+chatgpt
+```
+
 Flags:
 
 - `--reasoning <none|low|medium|high>` – optional (defaults to `none`). If omitted the CLI starts with reasoning disabled, but you can still change it at runtime using the `/reasoning` command.

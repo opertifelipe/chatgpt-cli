@@ -89,7 +89,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
 
     println!("{BOLD}{FG_CYAN}╔══════════════════════════════════════╗{RESET}");
     println!(
-        "{BOLD}{FG_CYAN}║ ChatGPT CLI {RESET}{DIM}(gpt-5.1){RESET}{BOLD}{FG_CYAN}                 ║{RESET}"
+        "{BOLD}{FG_CYAN}║ ChatGPT CLI {RESET}{DIM}(gpt-5.1){RESET}{BOLD}{FG_CYAN}                ║{RESET}"
     );
     println!("{BOLD}{FG_CYAN}╚══════════════════════════════════════╝{RESET}");
     println!("{DIM}Hint:{RESET} type a message and press Enter.");
